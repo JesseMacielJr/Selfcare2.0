@@ -1,0 +1,185 @@
+/* Estilo para monitores grandes */
+@media only screen and (min-width: 1500px) {
+   .produtos-mostruario {
+      justify-content: flex-start;
+      align-items: center;
+      border: 1px solid red;
+   }
+   
+   .produtos-itens {
+      margin-bottom: 50px;
+      margin-right: 48px;
+      width: 303px;
+   }
+
+   .produtos-itens:nth-of-type(5n+5) {
+      margin-right: 0px;
+   }
+}
+
+/* Estilo para Tablets */
+@media only screen and (min-width: 768px) and (max-width: 958px) {
+}
+
+/* Estilo para smartphones */
+/* @media only screen and (min-width: 400px) and (max-width: 767px) { */
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+   /* Cabeçalho */
+   .cabecalho nav ul li a img {
+      width: 15px;
+      height: 15px;
+   }
+
+   .cabecalho-logo {
+      width: 83px;
+   }
+
+   /* Sobre */
+   .sobre {
+      flex-direction: column;
+   }
+
+   .sobre nav {
+      margin-bottom: 54px;
+   }
+
+   .sobre nav ul li {
+      font-size: 14px;
+      line-height: 16.8px;
+   }
+
+   /* Produtos */
+   .produtos-itens {
+      margin-bottom: 65px;
+      width: 126.44px;
+      height: 126.44px;
+   }
+
+   .produtos-itens p {
+      margin-top: 8px;
+      font-size: 12px;
+      line-height: 14.4px;
+   }
+
+   /* Contato */
+   .contato {
+      width: 100%;
+   }
+
+   .contato-titulo {
+      font-size: 14px;
+      line-height: 16.8px;
+   }
+
+   .contato-email {
+      flex-direction: column;
+   }
+
+   .contato-email input {
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 17px;
+      width: 100%;
+   }
+
+   .contato-botao {
+      text-align: center;
+      font-size: 16px;
+      line-height: 19.2px;
+      width: 100%;
+   }
+
+   /* Footer */
+   .footer-logos {
+      padding: 27px 0;
+   }
+
+   .footer-logos-sociais img,
+   .footer-logos-cartoes img {
+      width: 23px;
+      height: 23px;
+   }
+}
+
+/* Para smartphones menores */
+@media only screen and (max-width: 299px) {
+    /* Cabeçalho */
+    .cabecalho nav ul li a img {
+       width: 15px;
+       height: 15px;
+    }
+ 
+    .cabecalho-logo {
+       width: 83px;
+    }
+ 
+    /* Sobre */
+    .sobre {
+       flex-direction: column;
+    }
+ 
+    .sobre nav {
+       margin-bottom: 54px;
+    }
+ 
+    .sobre nav ul li {
+       font-size: 14px;
+       line-height: 16.8px;
+    }
+ 
+    /* Produtos */
+    .produtos-mostruario {
+        flex-direction: column;
+    }
+ 
+    .produtos-itens {
+       margin-bottom: 65px;
+       width: 126.44px;
+       height: 126.44px;
+    }
+ 
+    .produtos-itens p {
+       margin-top: 8px;
+       font-size: 12px;
+       line-height: 14.4px;
+    }
+ 
+    /* Contato */
+    .contato {
+       width: 100%;
+    }
+ 
+    .contato-titulo {
+       font-size: 14px;
+       line-height: 16.8px;
+    }
+ 
+    .contato-email {
+       flex-direction: column;
+    }
+ 
+    .contato-email input {
+       font-size: 16px;
+       line-height: 19px;
+       margin-bottom: 17px;
+       width: 100%;
+    }
+ 
+    .contato-botao {
+       text-align: center;
+       font-size: 16px;
+       line-height: 19.2px;
+       width: 100%;
+    }
+ 
+    /* Footer */
+    .footer-logos {
+       padding: 27px 0;
+    }
+ 
+    .footer-logos-sociais img,
+    .footer-logos-cartoes img {
+       width: 23px;
+       height: 23px;
+    }
+ }
